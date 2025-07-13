@@ -9,7 +9,7 @@ This project demonstrates automatic deployment of a static web page to an EC2 in
 1. **Launch EC2 (Amazon Linux 2)**  
    - Install NGINX:  
      ```bash
-     sudo amazon-linux-extras install nginx1 -y
+     sudo amazon-linux-extras install nginx -y
      sudo systemctl start nginx
      sudo systemctl enable nginx
      sudo chmod -R 755 /usr/share/nginx/html
